@@ -40,6 +40,9 @@ cümlesi + tek sayfalık döküman taslağı.
    birlikte yazarsınız.
 
 > Adım adım kurulum (Claude Code'u hiç kullanmadıysan da): **[`KURULUM_VE_KULLANIM.md`](KURULUM_VE_KULLANIM.md)**
+>
+> Claude Code yoksa **Gemini CLI (ücretsiz)** veya **Google Antigravity** gibi başka bir AI ajanıyla da
+> kullanılabilir — ajan, `.claude/commands/start.md`'deki akışı okuyup kendine uyarlar (bkz. kurulum kılavuzu §7).
 
 ### Komutlar
 

@@ -112,5 +112,36 @@ GitHub'a **gönderilmez** — cevapların ve taahhüt taslağın yalnızca senin
 - **Giriş/erişim hatası:** Hesabın Pro/Max/Team/Enterprise/Console mı? Ücretsiz plan çalışmaz.
 - **`/start` görünmüyor:** Claude Code'u repo klasörünün **içinde** açtığından emin ol.
 - **Test cevaplarım kaybolur mu:** Hayır; `Benim_Ciktilarim/` altındaki dosyalar makinende kalıcıdır.
-- **Claude Code olmadan:** Dosyaları elle de okuyabilirsin (özellikle `04_Soru_Testi/`), ama
-  interaktif deneyim `/start` iledir.
+- **Claude Code olmadan:** Bu deponun içeriği düz markdown'dır; Claude Code şart değil. Başka bir
+  AI ajanıyla (Gemini CLI, Google Antigravity…) da kullanabilirsin — aşağıya bak.
+
+---
+
+## 7. Claude Code yoksa: Gemini CLI · Google Antigravity · başka bir AI ajanı
+
+Bu repoyu çalıştıran "beyin", `.claude/commands/` içindeki **düz-dil talimatlar** + markdown
+içeriktir. Claude Code bunları `/start` ile otomatik çalıştırır; ama dosyaları okuyabilen
+**herhangi bir AI ajanı** aynı akışı izleyebilir — ajan kendine uyarlar. Tek yapman gereken,
+ajana `start.md`'deki akışı "izle" demek.
+
+### Verilecek talimat (her araçta aynı — kopyala-yapıştır)
+> *Bu repo bir SAP Basis retro yardımcısı. `.claude/commands/start.md` dosyasını oku ve oradaki
+> akışı izleyerek beni adım adım yönlendir: brief → test → harita → proje → taahhüt. İçeriği ilgili
+> klasörlerden (`00_Baglam`, `01_Sunum_Ozetleri`, `04_Soru_Testi`, `05_Proje_Katalogu`,
+> `06_Taahhut_Sablonu`) oku; kişisel çıktılarımı `Benim_Ciktilarim/` altına yaz. Türkçe ve sade ol;
+> uydurma kaynak kullanma.*
+>
+> (Yalnız bir adım istiyorsan `start.md` yerine `test.md` / `harita.md` / `proje.md` / `taahhut.md` de.)
+
+### Gemini CLI (ücretsiz seçenek)
+1. Kur: `npm install -g @google/gemini-cli` (veya kurulumsuz: `npx @google/gemini-cli`).
+2. Repo klasöründe çalıştır: `gemini` → kişisel **Google hesabıyla giriş** (ücretsiz katman;
+   API anahtarı gerekmez). *(Claude Code'un aksine ücretsiz kullanılabilir.)*
+3. Yukarıdaki talimatı yapıştır. Gemini `start.md`'yi ve içerik dosyalarını okuyup akışı yürütür.
+
+### Google Antigravity (veya başka agentic IDE/araç)
+- Repo klasörünü araçta aç, ajana yukarıdaki **aynı talimatı** ver. Ajan `start.md`'yi ve
+  içeriği okuyup seni yönlendirir, çıktıları `Benim_Ciktilarim/`'a yazar.
+
+> Özet: `/start`'ın yaptığı her şey `.claude/commands/start.md`'de düz dille yazılı. Hangi aracı
+> kullanırsan kullan, "şu dosyadaki akışı izle" demen yeterli; gerisini araç kendine uyarlar.
