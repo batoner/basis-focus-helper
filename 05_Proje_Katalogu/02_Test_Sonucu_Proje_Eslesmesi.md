@@ -1,7 +1,7 @@
 # Test Sonucu → İhtiyaç Eşlemesi & Dinamik Karar Mantığı
 
 > `/proje` bu mantığı uygular. **Kopya seçim yapmaz**; ihtiyaç alanlarını + profili + tüm
-> bağlamı okuyup **kişiye özel, ölçülebilir bir öneri üretir.** (Karar: `../PLAN.md` §0.)
+> bağlamı okuyup **kişiye özel, ölçülebilir bir öneri üretir.**
 
 ## 1. Profil tipine göre yön
 `/harita`'nın çıkardığı 2×2 profili, hangi **ihtiyaç alanından** ve hangi **zorlukta**

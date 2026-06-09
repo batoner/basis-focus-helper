@@ -57,11 +57,11 @@ Sorun olursa: `claude doctor` çalıştır veya <https://code.claude.com/docs/en
 
 ## 2. Repoyu klonla
 ```bash
-git clone <REPO_URL>
-cd Basis_odak_helper
+git clone https://github.com/batoner/basis-focus-helper.git
+cd basis-focus-helper
 ```
-> `<REPO_URL>` paylaşılan GitHub adresidir (depo sahibinden alınır). Git yoksa GitHub'dan
-> "Download ZIP" ile indirip açabilirsin.
+> Genel (public) bir repodur. Git kurulu değilse GitHub sayfasından **"Code → Download ZIP"**
+> ile de indirip açabilirsin: <https://github.com/batoner/basis-focus-helper>
 
 ---
 

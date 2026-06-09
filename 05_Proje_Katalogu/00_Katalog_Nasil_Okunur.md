@@ -2,7 +2,7 @@
 
 > **Bu klasör bir "seçim menüsü" değildir.** SAP alanının geleceğe yönelik **ihtiyaç/fırsat
 > haritası**dır. `/proje` bunu **bağlam** alır ve kullanıcının cevaplarına göre öneriyi
-> **dinamik** üretir — kopya seçmez. (Karar: `../PLAN.md` §0.)
+> **dinamik** üretir — kopya seçmez.
 
 ## Niçin böyle?
 - **Kişisellik:** Her insanın profili farklı; doğru öneri ancak cevaplara göre anlık şekillenir.
@@ -10,11 +10,11 @@
   (haber korpusu, sunum yol haritası, gerçek projeler) bağlıdır → birebir görüşmedeki
   *"bu fikir nereden geldi?"* sorusuna hazır cevap verir. Bu yüzden her kartta **Dayanak** satırı var.
 
-## Nasıl üretildi (kalite notu)
-`01_Projeler_Alan_Bazli.md`'deki fikirler **Opus** ile tüm bağlam (haber korpusu + alan bağlamı +
-operasyon + sunum + fikir havuzu + gerçek projeler) yeniden okunarak üretildi ve bir **Opus
-değerlendirme kurulu** tarafından elenip cilalandı. Amaç: yöneticilerin **oylayabileceği**, dayanaklı,
-3 ayda yapılabilir fikirler.
+## Bu bir örnek katalogdur
+`01_Projeler_Alan_Bazli.md`, çeşitli iş kollarında **örnek** ihtiyaç/fırsat fikirlerinden oluşan bir
+havuzdur — kesin/bitmiş bir liste değil, ilham ve dayanak kaynağı. Fikirler haber korpusu + alan
+bağlamı + operasyon + sunum + fikir havuzundan damıtıldı; her biri gerçek bir **Dayanak**'a bağlı.
+`/proje` bunları kopyalamaz; profile göre dinamik öneri üretirken bağlam olarak kullanır.
 
 ## Bir proje fikri kaydı nasıl okunur
 ```

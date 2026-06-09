@@ -1,7 +1,7 @@
-# Basis Odak Helper
+# Basis Focus Helper
 
-> **Durum:** Hazır. Bağlam (10), 101 doğrulanmış haber, operasyon matrisi, soru bankası,
-> 86 Opus-üretimi proje fikri ve taahhüt şablonu yerinde; komutlar çalışır durumda. Detay: `PLAN.md`.
+> **Durum:** Hazır. Bağlam, SAP haberleri, operasyon matrisi, soru bankası, **örnek proje fikri
+> kataloğu** ve taahhüt şablonu yerinde; komutlar çalışır durumda.
 
 SAP Basis ekibindeki arkadaşların retro **"Yetkinlik Haritası"** taahhüdünü
 hazırlayabilmesi için kurulmuş, **Claude Code ile interaktif çalışan** bir yardımcı bilgi

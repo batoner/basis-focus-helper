@@ -3,10 +3,9 @@
 > **Menü değil, bağlam.** `/proje` bunları okuyup öneriyi DİNAMİK üretir; "3 Aylık Çıktı" birer ÖRNEKTİR.
 > Okuma kılavuzu: `00_Katalog_Nasil_Okunur.md` · Eşleme/karar mantığı: `02_Test_Sonucu_Proje_Eslesmesi.md`.
 >
-> **Nasıl üretildi:** Tüm bağlam (haber korpusu + alan bağlamı + operasyon envanteri + sunum özetleri +
-> fikir havuzu + gerçek projeler) **Opus ile yeniden okundu**; her iş kolu için özgün fikirler **Opus üretti**,
-> ardından bir **Opus değerlendirme kurulu** zayıf / uydurma-dayanaklı / tekrar eden fikirleri eledi ve
-> güçlüleri cilaladı.
+> **Bu bir örnek katalogdur:** haber korpusu + alan bağlamı + operasyon + sunum özetleri + fikir
+> havuzundan damıtılmış, çeşitli iş kollarında **örnek** ihtiyaç/fırsat fikirleri. Kesin/bitmiş bir
+> liste değil; ilham ve dayanak havuzudur.
 >
 > **Yöneticiler için:** Her kartta bir **Değer/Etki** satırı var — oylama gerekçesi. Her fikir gerçek bir
 > **Dayanak**'a (corpus "Haber #N" / sunum / gerçek SAP ürün yeteneği) bağlıdır; uydurma kaynak yoktur.
@@ -746,5 +745,5 @@
 
 ---
 
-> **Toplam: 86 proje fikri · 10 iş kolu + 1 çapraz tema** — tam Opus üretimi + Opus değerlendirme kurulu elemesi. `/proje` bunları kişiye özel dinamik öneri için bağlam alır.
+> **Örnek katalog · 10 iş kolu + 1 çapraz tema.** Bu bir sipariş listesi değil; `/proje` bunları kişiye özel dinamik öneri için **bağlam/ilham** olarak kullanır.
 
