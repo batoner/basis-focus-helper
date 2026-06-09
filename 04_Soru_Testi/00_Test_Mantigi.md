@@ -17,8 +17,18 @@ haritasını çıkarmak. Ton: sade, yargısız, "bilmiyorsan normal".
    'geç' diyebilirsin" de.
 2. **Alan alan ilerle:** `01_Soru_Bankasi.md`'deki sırayla. Önce **Klasik Basis** (ısınma,
    çoğu kişi burada güçlü → güven verir), sonra 10 iş kolu.
-3. **Her aktiviteyi tek tek sor**, 0–4 cevabı al. Kullanıcı bir terimi bilmiyorsa **tek
-   cümleyle açıkla** ve "bu durumda muhtemelen 0 veya 1" diye yönlendir.
+3. **Tek seferde TEK aktivite sor** — asla birden çok aktiviteyi aynı mesajda toplayıp
+   "puanlarını virgülle yaz" deme (kafa karıştırır). Her sorunun formatı şu olsun:
+   ```
+   Soru X/Y — [iş kolu adı]
+   "[aktivite, sade dille]" — bunu yapıyor musun / ne kadar?
+   (0 hiç duymadım · 1 duydum, yapmadım · 2 bir-iki kez yaptım · 3 düzenli yapıyorum · 4 öğretebilirim)
+   ```
+   Kullanıcı **rakamla da, kendi kelimeleriyle de** cevap verebilir ("hiç duymadım",
+   "birkaç kez yaptım ama emin değilim", "her gün işim bu"…). Kelimeyle cevap verirse
+   sen 0–4'e çevir ve tek cümleyle teyit et ("→ bunu 2 olarak işaretliyorum, itiraz var mı?").
+   Bir terimi bilmiyorsa **tek cümleyle açıkla** ve "bu durumda muhtemelen 0 veya 1" diye yönlendir.
+   *(İstisna: kullanıcı kendisi "toplu sorabilirsin" derse toplu sorabilirsin.)*
 4. **Kullanıcıyı boğma:** bir iş kolu bitince **mini özet** ver ("bu alanda ortalaman ~X")
    ve devam onayı al. Uzun listelerde 4–6 aktiviteyle sınırlı kal.
 5. **İş kolu sonunda ilgi sorusu** (0–3): "Bu alanda gelişmek ister misin?"

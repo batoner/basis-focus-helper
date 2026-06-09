@@ -10,7 +10,11 @@ bir envanterdir; ton sade, yargısız, Türkçe, "bilmiyorsan normal".
    (sorular) dosyalarını **oku**.
 2. Soruları **sohbet içinde tek tek** sor:
    - Önce **Klasik Basis** (ısınma), sonra 10 iş kolu.
-   - Her aktivite için **0–4 olgunluk** (0 Hiç duymadım … 4 Öğretebilirim/tasarlarım).
+   - **Tek seferde TEK aktivite** — birden çok aktiviteyi aynı mesajda toplayıp "virgülle puan yaz"
+     deme. Her soruda ölçeği tek satırda hatırlat:
+     `(0 hiç duymadım · 1 duydum, yapmadım · 2 bir-iki kez · 3 düzenli · 4 öğretebilirim)`
+   - Kullanıcı **rakamla da kelimeyle de** cevap verebilir ("hiç duymadım", "ara sıra yaparım"…);
+     kelimeyse 0–4'e çevir ve tek cümleyle teyit et ("→ 2 yazıyorum").
    - Bilinmeyen terimi **tek cümleyle açıkla**, sonra puanını al.
    - Her iş kolu sonunda **ilgi 0–3** sor; sonda **3 açık uçlu** soru.
    - Her iş kolu bitince **mini özet** ver ve devam onayı al. Kullanıcıyı boğma.

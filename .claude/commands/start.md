@@ -33,8 +33,10 @@ alan dosyalarına yönlendir.
 
 **3) Test.** `04_Soru_Testi/00_Test_Mantigi.md` (akış kuralları) ve `04_Soru_Testi/01_Soru_Bankasi.md`
 (sorular) dosyalarını oku, sonra testi **sohbet içinde tek tek** uygula:
-   - Önce Klasik Basis (ısınma), sonra 10 iş kolu. Her aktivite için 0–4 olgunluk; her iş kolu sonunda
-     ilgi 0–3; sonda 3 açık uçlu soru. Bilinmeyen terimi tek cümleyle açıkla.
+   - Önce Klasik Basis (ısınma), sonra 10 iş kolu. **Tek seferde TEK aktivite sor** (toplu/virgüllü
+     puan isteme); her soruda 0–4 ölçeğini tek satırda hatırlat. Kullanıcı kelimeyle de cevap
+     verebilir — sen 0–4'e çevirip teyit et. Her iş kolu sonunda ilgi 0–3; sonda 3 açık uçlu soru.
+     Bilinmeyen terimi tek cümleyle açıkla.
    - Her iş kolu bitince mini özet ver, devam onayı al.
    - Bitince sonucu **`Benim_Ciktilarim/Test_Sonucu.md`** dosyasına `00_Test_Mantigi.md`'deki formatla yaz.
 
