@@ -15,8 +15,9 @@ deposu.
 ## Ne işe yarar?
 
 Birçok arkadaş retro için "ne yapabilirim?" sorusuna takılıyor. Sebep yetenek eksikliği
-değil — **görünürlük eksikliği**: kullanılmayan ürünlerden (BTP, RISE/ECS, AI araçları,
-Integration Suite, CALM, BDC…) habersiz olunca insan *neyi isteyebileceğini* bilemiyor.
+değil — **görünürlük eksikliği**: bugüne kadar kullanmadıkları ürünlerden (BTP, RISE/ECS,
+AI araçları, Integration Suite, CALM, BDC…) habersiz olunca insan *neye ihtiyaç olduğunu
+ve neye yatkın olduğunu* bilemeyebiliyor.
 
 Bu depo seni şu yoldan geçirir:
 
