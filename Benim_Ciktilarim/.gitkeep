@@ -1,0 +1,3 @@
+# Bu klasör senin kişisel çıktıların için.
+# /test → Test_Sonucu.md, /taahhut → Taahhut_Taslagi.md buraya yazılır.
+# .gitignore sayesinde içindekiler GitHub'a gönderilmez (sadece bu .gitkeep durur).

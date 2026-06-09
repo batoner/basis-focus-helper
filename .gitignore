@@ -1,0 +1,17 @@
+# Kişisel veri — kimsenin test cevabı/taahhüt taslağı GitHub'a gitmesin
+Benim_Ciktilarim/*
+!Benim_Ciktilarim/.gitkeep
+
+# Üretilen PDF/HTML çıktılar (opsiyonel taahhüt PDF'i vb.)
+*.pdf
+*.tmp
+
+# İç yapım/karar günlüğü — public repoya dahil edilmez (yerelde durur)
+PLAN.md
+
+# İşletim sistemi / editör
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
